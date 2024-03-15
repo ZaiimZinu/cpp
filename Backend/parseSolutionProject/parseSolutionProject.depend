@@ -1,0 +1,731 @@
+# depslib dependency file v1.0
+1706201620 source:d:\canada\parsesolutionproject\autobusdata.cpp
+	"pch.h"
+	"AutoBusData.h"
+	<fstream>
+	<iostream>
+	"ExceptionHandling.h"
+
+1704664992 d:\canada\parsesolutionproject\pch.h
+	"framework.h"
+
+1704664671 d:\canada\parsesolutionproject\framework.h
+
+1704664180 d:\canada\parsesolutionproject\autobusdata.h
+	<iostream>
+	<map>
+	<unordered_map>
+	<unordered_set>
+	<set>
+	"Trip.h"
+	"Line.h"
+
+1704665218 d:\canada\parsesolutionproject\trip.h
+	<iostream>
+	<fstream>
+	"DateTime.h"
+	"CountifiedPair.h"
+
+1704664476 d:\canada\parsesolutionproject\datetime.h
+	<iostream>
+	<fstream>
+
+1704664359 d:\canada\parsesolutionproject\countifiedpair.h
+	<iostream>
+	<string>
+	<fstream>
+
+1704664944 d:\canada\parsesolutionproject\line.h
+	<iostream>
+
+1704664609 d:\canada\parsesolutionproject\exceptionhandling.h
+	<iostream>
+	<fstream>
+
+1705756974 source:d:\canada\parsesolutionproject\configuration.cpp
+	"pch.h"
+	"Configuration.h"
+	"StringHandling.h"
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+
+1704664240 d:\canada\parsesolutionproject\configuration.h
+	<iostream>
+	<unordered_map>
+
+1704665171 d:\canada\parsesolutionproject\stringhandling.h
+	<string>
+	<vector>
+
+1705765462 source:d:\canada\parsesolutionproject\connection.cpp
+	"pch.h"
+	"Connection.h"
+	"Configuration.h"
+
+1704664289 d:\canada\parsesolutionproject\connection.h
+	<iostream>
+	"CountifiedPair.h"
+	"Trip.h"
+
+1705979892 source:d:\canada\parsesolutionproject\data_reader.cpp
+	<iostream>
+	<fstream>
+	<regex>
+	<sstream>
+	<algorithm>
+	"pch.h"
+	"Data_Reader.h"
+	"StringHandling.h"
+	"ExceptionHandling.h"
+	"Configuration.h"
+
+1704666863 d:\canada\parsesolutionproject\data_reader.h
+	<string>
+	"Graphe.h"
+	"AutoBusData.h"
+
+1704741398 d:\canada\parsesolutionproject\graphe.h
+	<iostream>
+	<map>
+	<unordered_map>
+	<unordered_set>
+	<set>
+	<vector>
+	"Trip.h"
+	"itinerary.h"
+	"AutoBusData.h"
+	"Connection.h"
+
+1706203326 d:\canada\parsesolutionproject\itinerary.h
+	<iostream>
+	<map>
+	<unordered_map>
+	<unordered_set>
+	<set>
+	<fstream>
+	"Trip.h"
+	<vector>
+
+1704662915 source:d:\canada\parsesolutionproject\datetime.cpp
+	"pch.h"
+	"DateTime.h"
+	"StringHandling.h"
+	<string>
+
+1705790861 source:d:\canada\parsesolutionproject\dynamicitinerary.cpp
+	"pch.h"
+	"DynamicItinerary.h"
+	"Configuration.h"
+	<algorithm>
+	<random>
+	"ExceptionHandling.h"
+
+1704664528 d:\canada\parsesolutionproject\dynamicitinerary.h
+	"itinerary.h"
+	"Graphe.h"
+	"Solution.h"
+
+1704665564 d:\canada\parsesolutionproject\solution.h
+	<iostream>
+	<map>
+	<unordered_map>
+	<unordered_set>
+	<set>
+	<vector>
+	"Trip.h"
+	"itinerary.h"
+	"AutoBusData.h"
+	"Connection.h"
+	"Graphe.h"
+
+1704663018 source:d:\canada\parsesolutionproject\exceptionhandling.cpp
+	"pch.h"
+	"ExceptionHandling.h"
+	"Configuration.h"
+	<iostream>
+
+1704663157 source:d:\canada\parsesolutionproject\genetiquehelper.cpp
+	"pch.h"
+	"GenetiqueHelper.h"
+	"DynamicItinerary.h"
+	"Random.h"
+	<algorithm>
+
+1704664721 d:\canada\parsesolutionproject\genetiquehelper.h
+	<vector>
+	<unordered_set>
+	"Solution.h"
+	"Configuration.h"
+
+1704665057 d:\canada\parsesolutionproject\random.h
+	<iostream>
+	<set>
+	<time.h>
+
+1705765638 source:d:\canada\parsesolutionproject\graphe.cpp
+	"pch.h"
+	"Graphe.h"
+	"Configuration.h"
+	"DynamicItinerary.h"
+	<iostream>
+	<unordered_set>
+	<map>
+	<algorithm>
+	<set>
+	<vector>
+
+1704663269 source:d:\canada\parsesolutionproject\graphlib.cpp
+	"pch.h"
+	"framework.h"
+
+1706231089 source:d:\canada\parsesolutionproject\itinerary.cpp
+	"pch.h"
+	"itinerary.h"
+	"Configuration.h"
+	"ExceptionHandling.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1704663380 source:d:\canada\parsesolutionproject\line.cpp
+	"pch.h"
+	"Line.h"
+
+1708100368 source:d:\canada\parsesolutionproject\moulinette.cpp
+	<iostream>
+	<string>
+	<fstream>
+	<sstream>
+	<chrono>
+	<ctime>
+	<iomanip>
+	"Graphe.h"
+	"Configuration.h"
+	"StringHandling.h"
+	"DataReader.h"
+	"ExceptionHandling.h"
+	"SolutionReader.h"
+	<windows.h>
+	<tchar.h>
+
+1705753505 d:\canada\parsesolutionproject\results_reader.h
+	<iostream>
+	<fstream>
+	<string>
+	"AutoBusData.h"
+	"itinerary.h"
+
+1704663425 source:d:\canada\parsesolutionproject\pch.cpp
+	"pch.h"
+
+1705977841 source:d:\canada\parsesolutionproject\results_reader.cpp
+	"Results_Reader.h"
+	<sstream>
+	<algorithm>
+	"StringHandling.h"
+	"ExceptionHandling.h"
+	<unordered_set>
+	"itinerary.h"
+
+1704663583 source:d:\canada\parsesolutionproject\solution.cpp
+	"pch.h"
+	"Solution.h"
+	"DynamicItinerary.h"
+	"Configuration.h"
+
+1704663655 source:d:\canada\parsesolutionproject\stringhandling.cpp
+	"pch.h"
+	"StringHandling.h"
+	<iostream>
+	<algorithm>
+
+1705789001 source:d:\canada\parsesolutionproject\trip.cpp
+	"pch.h"
+	"Trip.h"
+	"ExceptionHandling.h"
+
+1706229101 source:d:\canada\parsesolutionproject\solutionreader.cpp
+	"SolutionReader.h"
+	<sstream>
+	<algorithm>
+	"StringHandling.h"
+	"ExceptionHandling.h"
+	<unordered_set>
+	"itinerary.h"
+
+1705980049 d:\canada\parsesolutionproject\solutionreader.h
+	<iostream>
+	<fstream>
+	<string>
+	"AutoBusData.h"
+	"itinerary.h"
+
+1705980513 source:d:\canada\parsesolutionproject\datareader.cpp
+	<iostream>
+	<fstream>
+	<regex>
+	<sstream>
+	<algorithm>
+	"pch.h"
+	"DataReader.h"
+	"StringHandling.h"
+	"ExceptionHandling.h"
+	"Configuration.h"
+
+1705980541 d:\canada\parsesolutionproject\datareader.h
+	<string>
+	"Graphe.h"
+	"AutoBusData.h"
+
+1706201620 source:c:\users\moham\onedrive\desktop\project-ed\backend\parsesolutionproject\autobusdata.cpp
+	"pch.h"
+	"AutoBusData.h"
+	<fstream>
+	<iostream>
+	"ExceptionHandling.h"
+
+1704664992 c:\users\moham\onedrive\desktop\project-ed\backend\parsesolutionproject\pch.h
+	"framework.h"
+
+1704664671 c:\users\moham\onedrive\desktop\project-ed\backend\parsesolutionproject\framework.h
+
+1704664180 c:\users\moham\onedrive\desktop\project-ed\backend\parsesolutionproject\autobusdata.h
+	<iostream>
+	<map>
+	<unordered_map>
+	<unordered_set>
+	<set>
+	"Trip.h"
+	"Line.h"
+
+1704665218 c:\users\moham\onedrive\desktop\project-ed\backend\parsesolutionproject\trip.h
+	<iostream>
+	<fstream>
+	"DateTime.h"
+	"CountifiedPair.h"
+
+1704664476 c:\users\moham\onedrive\desktop\project-ed\backend\parsesolutionproject\datetime.h
+	<iostream>
+	<fstream>
+
+1704664359 c:\users\moham\onedrive\desktop\project-ed\backend\parsesolutionproject\countifiedpair.h
+	<iostream>
+	<string>
+	<fstream>
+
+1704664944 c:\users\moham\onedrive\desktop\project-ed\backend\parsesolutionproject\line.h
+	<iostream>
+
+1704664609 c:\users\moham\onedrive\desktop\project-ed\backend\parsesolutionproject\exceptionhandling.h
+	<iostream>
+	<fstream>
+
+1705756974 source:c:\users\moham\onedrive\desktop\project-ed\backend\parsesolutionproject\configuration.cpp
+	"pch.h"
+	"Configuration.h"
+	"StringHandling.h"
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+
+1704664240 c:\users\moham\onedrive\desktop\project-ed\backend\parsesolutionproject\configuration.h
+	<iostream>
+	<unordered_map>
+
+1704665171 c:\users\moham\onedrive\desktop\project-ed\backend\parsesolutionproject\stringhandling.h
+	<string>
+	<vector>
+
+1705765462 source:c:\users\moham\onedrive\desktop\project-ed\backend\parsesolutionproject\connection.cpp
+	"pch.h"
+	"Connection.h"
+	"Configuration.h"
+
+1704664289 c:\users\moham\onedrive\desktop\project-ed\backend\parsesolutionproject\connection.h
+	<iostream>
+	"CountifiedPair.h"
+	"Trip.h"
+
+1705980513 source:c:\users\moham\onedrive\desktop\project-ed\backend\parsesolutionproject\datareader.cpp
+	<iostream>
+	<fstream>
+	<regex>
+	<sstream>
+	<algorithm>
+	"pch.h"
+	"DataReader.h"
+	"StringHandling.h"
+	"ExceptionHandling.h"
+	"Configuration.h"
+
+1705980541 c:\users\moham\onedrive\desktop\project-ed\backend\parsesolutionproject\datareader.h
+	<string>
+	"Graphe.h"
+	"AutoBusData.h"
+
+1704741398 c:\users\moham\onedrive\desktop\project-ed\backend\parsesolutionproject\graphe.h
+	<iostream>
+	<map>
+	<unordered_map>
+	<unordered_set>
+	<set>
+	<vector>
+	"Trip.h"
+	"itinerary.h"
+	"AutoBusData.h"
+	"Connection.h"
+
+1706203326 c:\users\moham\onedrive\desktop\project-ed\backend\parsesolutionproject\itinerary.h
+	<iostream>
+	<map>
+	<unordered_map>
+	<unordered_set>
+	<set>
+	<fstream>
+	"Trip.h"
+	<vector>
+
+1704662915 source:c:\users\moham\onedrive\desktop\project-ed\backend\parsesolutionproject\datetime.cpp
+	"pch.h"
+	"DateTime.h"
+	"StringHandling.h"
+	<string>
+
+1705790861 source:c:\users\moham\onedrive\desktop\project-ed\backend\parsesolutionproject\dynamicitinerary.cpp
+	"pch.h"
+	"DynamicItinerary.h"
+	"Configuration.h"
+	<algorithm>
+	<random>
+	"ExceptionHandling.h"
+
+1704664528 c:\users\moham\onedrive\desktop\project-ed\backend\parsesolutionproject\dynamicitinerary.h
+	"itinerary.h"
+	"Graphe.h"
+	"Solution.h"
+
+1704665564 c:\users\moham\onedrive\desktop\project-ed\backend\parsesolutionproject\solution.h
+	<iostream>
+	<map>
+	<unordered_map>
+	<unordered_set>
+	<set>
+	<vector>
+	"Trip.h"
+	"itinerary.h"
+	"AutoBusData.h"
+	"Connection.h"
+	"Graphe.h"
+
+1704663018 source:c:\users\moham\onedrive\desktop\project-ed\backend\parsesolutionproject\exceptionhandling.cpp
+	"pch.h"
+	"ExceptionHandling.h"
+	"Configuration.h"
+	<iostream>
+
+1705765638 source:c:\users\moham\onedrive\desktop\project-ed\backend\parsesolutionproject\graphe.cpp
+	"pch.h"
+	"Graphe.h"
+	"Configuration.h"
+	"DynamicItinerary.h"
+	<iostream>
+	<unordered_set>
+	<map>
+	<algorithm>
+	<set>
+	<vector>
+
+1706231089 source:c:\users\moham\onedrive\desktop\project-ed\backend\parsesolutionproject\itinerary.cpp
+	"pch.h"
+	"itinerary.h"
+	"Configuration.h"
+	"ExceptionHandling.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1704663380 source:c:\users\moham\onedrive\desktop\project-ed\backend\parsesolutionproject\line.cpp
+	"pch.h"
+	"Line.h"
+
+1708100368 source:c:\users\moham\onedrive\desktop\project-ed\backend\parsesolutionproject\moulinette.cpp
+	<iostream>
+	<string>
+	<fstream>
+	<sstream>
+	<chrono>
+	<ctime>
+	<iomanip>
+	"Graphe.h"
+	"Configuration.h"
+	"StringHandling.h"
+	"DataReader.h"
+	"ExceptionHandling.h"
+	"SolutionReader.h"
+	<windows.h>
+	<tchar.h>
+
+1705980049 c:\users\moham\onedrive\desktop\project-ed\backend\parsesolutionproject\solutionreader.h
+	<iostream>
+	<fstream>
+	<string>
+	"AutoBusData.h"
+	"itinerary.h"
+
+1704663425 source:c:\users\moham\onedrive\desktop\project-ed\backend\parsesolutionproject\pch.cpp
+	"pch.h"
+
+1704663583 source:c:\users\moham\onedrive\desktop\project-ed\backend\parsesolutionproject\solution.cpp
+	"pch.h"
+	"Solution.h"
+	"DynamicItinerary.h"
+	"Configuration.h"
+
+1706229101 source:c:\users\moham\onedrive\desktop\project-ed\backend\parsesolutionproject\solutionreader.cpp
+	"SolutionReader.h"
+	<sstream>
+	<algorithm>
+	"StringHandling.h"
+	"ExceptionHandling.h"
+	<unordered_set>
+	"itinerary.h"
+
+1704663655 source:c:\users\moham\onedrive\desktop\project-ed\backend\parsesolutionproject\stringhandling.cpp
+	"pch.h"
+	"StringHandling.h"
+	<iostream>
+	<algorithm>
+
+1705789001 source:c:\users\moham\onedrive\desktop\project-ed\backend\parsesolutionproject\trip.cpp
+	"pch.h"
+	"Trip.h"
+	"ExceptionHandling.h"
+
+1706198020 source:c:\users\dell\desktop\projet\backend\parsesolutionproject\autobusdata.cpp
+	"pch.h"
+	"AutoBusData.h"
+	<fstream>
+	<iostream>
+	"ExceptionHandling.h"
+
+1704661392 c:\users\dell\desktop\projet\backend\parsesolutionproject\pch.h
+	"framework.h"
+
+1704661071 c:\users\dell\desktop\projet\backend\parsesolutionproject\framework.h
+
+1704660580 c:\users\dell\desktop\projet\backend\parsesolutionproject\autobusdata.h
+	<iostream>
+	<map>
+	<unordered_map>
+	<unordered_set>
+	<set>
+	"Trip.h"
+	"Line.h"
+
+1704661618 c:\users\dell\desktop\projet\backend\parsesolutionproject\trip.h
+	<iostream>
+	<fstream>
+	"DateTime.h"
+	"CountifiedPair.h"
+
+1704660876 c:\users\dell\desktop\projet\backend\parsesolutionproject\datetime.h
+	<iostream>
+	<fstream>
+
+1704660759 c:\users\dell\desktop\projet\backend\parsesolutionproject\countifiedpair.h
+	<iostream>
+	<string>
+	<fstream>
+
+1704661344 c:\users\dell\desktop\projet\backend\parsesolutionproject\line.h
+	<iostream>
+
+1704661009 c:\users\dell\desktop\projet\backend\parsesolutionproject\exceptionhandling.h
+	<iostream>
+	<fstream>
+
+1705753374 source:c:\users\dell\desktop\projet\backend\parsesolutionproject\configuration.cpp
+	"pch.h"
+	"Configuration.h"
+	"StringHandling.h"
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+
+1704660640 c:\users\dell\desktop\projet\backend\parsesolutionproject\configuration.h
+	<iostream>
+	<unordered_map>
+
+1704661571 c:\users\dell\desktop\projet\backend\parsesolutionproject\stringhandling.h
+	<string>
+	<vector>
+
+1705761862 source:c:\users\dell\desktop\projet\backend\parsesolutionproject\connection.cpp
+	"pch.h"
+	"Connection.h"
+	"Configuration.h"
+
+1704660689 c:\users\dell\desktop\projet\backend\parsesolutionproject\connection.h
+	<iostream>
+	"CountifiedPair.h"
+	"Trip.h"
+
+1705976913 source:c:\users\dell\desktop\projet\backend\parsesolutionproject\datareader.cpp
+	<iostream>
+	<fstream>
+	<regex>
+	<sstream>
+	<algorithm>
+	"pch.h"
+	"DataReader.h"
+	"StringHandling.h"
+	"ExceptionHandling.h"
+	"Configuration.h"
+
+1705976941 c:\users\dell\desktop\projet\backend\parsesolutionproject\datareader.h
+	<string>
+	"Graphe.h"
+	"AutoBusData.h"
+
+1704737798 c:\users\dell\desktop\projet\backend\parsesolutionproject\graphe.h
+	<iostream>
+	<map>
+	<unordered_map>
+	<unordered_set>
+	<set>
+	<vector>
+	"Trip.h"
+	"itinerary.h"
+	"AutoBusData.h"
+	"Connection.h"
+
+1706199726 c:\users\dell\desktop\projet\backend\parsesolutionproject\itinerary.h
+	<iostream>
+	<map>
+	<unordered_map>
+	<unordered_set>
+	<set>
+	<fstream>
+	"Trip.h"
+	<vector>
+
+1704659315 source:c:\users\dell\desktop\projet\backend\parsesolutionproject\datetime.cpp
+	"pch.h"
+	"DateTime.h"
+	"StringHandling.h"
+	<string>
+
+1705787261 source:c:\users\dell\desktop\projet\backend\parsesolutionproject\dynamicitinerary.cpp
+	"pch.h"
+	"DynamicItinerary.h"
+	"Configuration.h"
+	<algorithm>
+	<random>
+	"ExceptionHandling.h"
+
+1704660928 c:\users\dell\desktop\projet\backend\parsesolutionproject\dynamicitinerary.h
+	"itinerary.h"
+	"Graphe.h"
+	"Solution.h"
+
+1704661964 c:\users\dell\desktop\projet\backend\parsesolutionproject\solution.h
+	<iostream>
+	<map>
+	<unordered_map>
+	<unordered_set>
+	<set>
+	<vector>
+	"Trip.h"
+	"itinerary.h"
+	"AutoBusData.h"
+	"Connection.h"
+	"Graphe.h"
+
+1704659418 source:c:\users\dell\desktop\projet\backend\parsesolutionproject\exceptionhandling.cpp
+	"pch.h"
+	"ExceptionHandling.h"
+	"Configuration.h"
+	<iostream>
+
+1705762038 source:c:\users\dell\desktop\projet\backend\parsesolutionproject\graphe.cpp
+	"pch.h"
+	"Graphe.h"
+	"Configuration.h"
+	"DynamicItinerary.h"
+	<iostream>
+	<unordered_set>
+	<map>
+	<algorithm>
+	<set>
+	<vector>
+
+1706227489 source:c:\users\dell\desktop\projet\backend\parsesolutionproject\itinerary.cpp
+	"pch.h"
+	"itinerary.h"
+	"Configuration.h"
+	"ExceptionHandling.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1704659780 source:c:\users\dell\desktop\projet\backend\parsesolutionproject\line.cpp
+	"pch.h"
+	"Line.h"
+
+1704659825 source:c:\users\dell\desktop\projet\backend\parsesolutionproject\pch.cpp
+	"pch.h"
+
+1704659983 source:c:\users\dell\desktop\projet\backend\parsesolutionproject\solution.cpp
+	"pch.h"
+	"Solution.h"
+	"DynamicItinerary.h"
+	"Configuration.h"
+
+1706225501 source:c:\users\dell\desktop\projet\backend\parsesolutionproject\solutionreader.cpp
+	"SolutionReader.h"
+	<sstream>
+	<algorithm>
+	"StringHandling.h"
+	"ExceptionHandling.h"
+	<unordered_set>
+	"itinerary.h"
+
+1705976449 c:\users\dell\desktop\projet\backend\parsesolutionproject\solutionreader.h
+	<iostream>
+	<fstream>
+	<string>
+	"AutoBusData.h"
+	"itinerary.h"
+
+1704660055 source:c:\users\dell\desktop\projet\backend\parsesolutionproject\stringhandling.cpp
+	"pch.h"
+	"StringHandling.h"
+	<iostream>
+	<algorithm>
+
+1705785401 source:c:\users\dell\desktop\projet\backend\parsesolutionproject\trip.cpp
+	"pch.h"
+	"Trip.h"
+	"ExceptionHandling.h"
+
+1710467597 source:c:\users\dell\desktop\projet\backend\parsesolutionproject\moulinette.cpp
+	<iostream>
+	<string>
+	<fstream>
+	<sstream>
+	<chrono>
+	<ctime>
+	<iomanip>
+	"Graphe.h"
+	"Configuration.h"
+	"StringHandling.h"
+	"DataReader.h"
+	"ExceptionHandling.h"
+	"SolutionReader.h"
+	<windows.h>
+	<tchar.h>
+

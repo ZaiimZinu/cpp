@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PERSONALIZED REPORT GENERATOR</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>PERSONALIZED REPORT GENERATOR</h1>
+  <h2>PERSONALIZED REPORT GENERATOR</h2>
+  <form id="input-form">
+    <h3>Input Data :</h3>
+    <div class="input-group">
+      <label for="param1">Input :</label>
+      <input type="file" id="param1" name="input-data" onchange="updateFileLabel()" placeholder="No file selected."><br><br>
+      
+      <label for="param2">Input Data Depot:</label>
+      <input type="file" id="param2" name="input-data" onchange="updateFileLabel()" placeholder="No file selected."><br><br>
+      
+      <label for="solution1">Solution 1:</label>
+      <input type="file" id="solution1" name="input-data" onchange="updateFileLabel()" placeholder="No file selected."><br><br>
+      
+      <label for="solution2">Solution 2:</label>
+      <input type="file" id="solution2" name="input-data" onchange="updateFileLabel()" placeholder="No file selected."><br><br>
+    </div>
+    <div class="input-group">
+      <h3>Output File :</h3>
+      <select id="solutionCriteria" style="background-color: #F0F0F0;">
+        <option value="text">.txt</option>
+        <option value="csv">.csv</option>
+        <option value="chart">Chart</option>
+        <!-- Add more criteria as needed -->
+      </select>
+    </div>
+    <h3>Criteria :</h3>
+    <div class="preference">
+      <label for="cost">Cost</label>
+      <input type="checkbox" name="criteria" id="cost" />
+      
+      <label for="fat">Fat</label>
+      <input type="checkbox" name="criteria" id="fat" /><br>
+      
+      <label for="individualStats">Individual Statistics</label>
+      <input type="checkbox" name="criteria" id="individualStats" />
+      
+      <label for="globalStats">Global Statistics</label>
+      <input type="checkbox" name="criteria" id="globalStats" />
+    </div>
+    <br><br>
+    <div>
+      <button class="button center">Parse</button>
+    </div>
+  </form>
+
+  <script>
+    // Define the updateFileLabel function here if not already defined
+    function updateFileLabel() {
+      // Implement file label updating logic here
+    }
+  </script>
+</body>
+</html>

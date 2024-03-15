@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="parseSolutionProject" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/parseSolutionProject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/parseSolutionProject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="AutoBusData.cpp" />
+		<Unit filename="AutoBusData.h" />
+		<Unit filename="Configuration.cpp" />
+		<Unit filename="Configuration.h" />
+		<Unit filename="Connection.cpp" />
+		<Unit filename="Connection.h" />
+		<Unit filename="CountifiedPair.h" />
+		<Unit filename="DataReader.cpp" />
+		<Unit filename="DataReader.h" />
+		<Unit filename="DateTime.cpp" />
+		<Unit filename="DateTime.h" />
+		<Unit filename="DynamicItinerary.cpp" />
+		<Unit filename="DynamicItinerary.h" />
+		<Unit filename="ExceptionHandling.cpp" />
+		<Unit filename="ExceptionHandling.h" />
+		<Unit filename="Graphe.cpp" />
+		<Unit filename="Graphe.h" />
+		<Unit filename="Line.cpp" />
+		<Unit filename="Line.h" />
+		<Unit filename="Moulinette.cpp" />
+		<Unit filename="Random.h" />
+		<Unit filename="Solution.cpp" />
+		<Unit filename="Solution.h" />
+		<Unit filename="SolutionReader.cpp" />
+		<Unit filename="SolutionReader.h" />
+		<Unit filename="StringHandling.cpp" />
+		<Unit filename="StringHandling.h" />
+		<Unit filename="Trip.cpp" />
+		<Unit filename="Trip.h" />
+		<Unit filename="framework.h" />
+		<Unit filename="itinerary.cpp" />
+		<Unit filename="itinerary.h" />
+		<Unit filename="parseSolutionProject.cbp" />
+		<Unit filename="pch.cpp" />
+		<Unit filename="pch.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

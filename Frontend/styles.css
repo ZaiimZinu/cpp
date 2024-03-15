@@ -1,0 +1,103 @@
+/* style.css */
+
+/* Body Styles */
+body {
+  font-family: Poppins;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Form Styles */
+h1{
+  text-align: center;
+  color: #004d8d;
+
+}
+
+h3,h2{
+  text-align: center;
+  background-color: #004d8d;
+  color: white ;
+
+}
+
+form {
+  font-family: Poppins;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 100%;
+
+}
+
+.input-group {
+  margin-bottom: 30px;
+  font-family: Poppins;
+
+}
+
+input[type="file"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+/* Keyframes for animation */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+/* Button style with animation */
+.button {
+  background-color: #004d8d; /* Nouvelle couleur de fond */
+  border: none; /* Supprimer la bordure */
+  color: white; /* Couleur du texte */
+  padding: 15px 32px; /* Espacement intérieur */
+  text-align: center; /* Alignement du texte */
+  text-decoration: none; /* Supprimer la décoration du texte */
+  display: block; /* Affichage en bloc */
+  margin: 0 auto; /* Marge automatique pour centrer */
+  font-size: 16px; /* Taille de police */
+  cursor: pointer; /* Curseur */
+  border-radius: 10px; /* Rayon des bords */
+  animation: pulse 1s infinite; /* Ajout de l'animation */
+  font-family: Poppins;
+}
+
+/* Change background color on hover */
+.button:hover {
+  background-color: #003b6b; /* Nouvelle couleur de fond au survol */
+  animation: none; /* Arrêter l'animation au survol */
+}
+
+/* Criteria Styles */
+.preference {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.preference label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.preference input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.foot{
+  background-color: #004d8d;
+}
